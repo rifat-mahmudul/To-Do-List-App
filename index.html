@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- -----remix-icon-cdn----- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Daily Task</h1>
+
+        <input type="text" name="dailyTask" id="dailyTaskInput" placeholder="Enter Your Task">
+        <button onclick="addTaskBtn()">+</button>
+        <button onclick="deleteCompletedTask()">remove completed task</button>
+
+        <ul id="dailyTask"></ul>
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

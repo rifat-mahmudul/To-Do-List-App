@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(15, 15, 50);
+}
+
+.container{
+    color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+#dailyTask{
+    width: 100%;
+}
+
+#dailyTask li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 15px;
+    background-color: rgba(0, 255, 255, 0.338);
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+#dailyTask li div{
+    display: flex;
+    gap: 10px;
+}
+
+#dailyTask li i{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: red;
+}
